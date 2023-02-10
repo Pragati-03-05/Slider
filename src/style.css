@@ -1,0 +1,43 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.images {
+  display: flex;
+  justify-content: center;
+}
+.image {
+  border: 1px solid red;
+  height: 200px;
+  width: 20px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  border-radius: 20px;
+  overflow-x: hidden;
+  transition: 2s ease;
+}
+.select {
+  width: 100px;
+  transform: translateX(3);
+  border: 1px solid red;
+  height: 200px;
+  display: flex;
+  align-items: center;
+  background-size: cover;
+  border-radius: 20px;
+  overflow-x: hidden;
+  transition: 2s ease;
+}
+.btn {
+  margin: 10px;
+}
+button {
+  border-radius: 50%;
+  height: 10px;
+  margin: 5px;
+  background-color: lightgray;
+}
+.test {
+  background-color: darkblue;
+}
